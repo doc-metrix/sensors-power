@@ -1,8 +1,8 @@
-{{ Specification Name }}
+Sensors-power Metrics
 ===
 
 
-## Description
+Power related sensor performance metrics.
 
 
 
