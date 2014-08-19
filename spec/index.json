@@ -2,8 +2,8 @@
     "sensors.12v": {
         "display_name": "sensors.12v",
         "units": "volt",
-        "max": "",
-        "min": "",
+        "max": null,
+        "min": null,
         "sig_figs": 4,
         "data_type": "numeric",
         "type": "raw",
@@ -23,29 +23,18 @@
     "sensors.12vStandby": {
         "display_name": "sensors.12vStandby",
         "units": "volt",
-        "max": {
-            "critical": 13.885,
-            "non-recoverable": 14.481
-        },
-        "min": {
-            "critical": 10.685,
-            "non-recoverable": 10.045
-        },
+        "max": null,
+        "min": null,
         "sig_figs": 4,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
         "variants": null,
         "description": "The voltage supplied by the power supply unit on the 12 volt standby rail. The standby rail powers the subset of components needed to remotely start the system.",
-        "notes": {
-            "sensor_info": {
-                "sensor_name": "12 V Standby",
-                "sensor_number": "05h"
-            }
-        },
+        "notes": "The sensor name is '12 V Standby', and the sensor ID is '05h'. The lower critical voltage is 10.685V, the lower non-recoverable voltage is 10.045V, the upper critical voltage is 13.885V, and the upper non-recoverable voltage is 14.481V.",
         "source": "ipmi-sensors",
         "device": "12 V Standby sensor",
-        "vendors": "Dell PowerEdge C6220",
+        "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
             "http://www.gnu.org/software/freeipmi/",
@@ -56,29 +45,18 @@
     "sensors.3.3v": {
         "display_name": "sensors.3.3v",
         "units": "volt",
-        "max": {
-            "critical": 3.6602,
-            "non-recoverable": 3.8366
-        },
-        "min": {
-            "critical": 2.9545,
-            "non-recoverable": 2.7782
-        },
+        "max": null,
+        "min": null,
         "sig_figs": 3,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
         "variants": null,
         "description": "The voltage supplied by the power supply unit on the 3.3 volt rail.",
-        "notes": {
-            "sensor_info": {
-                "sensor_name": "3.3 V",
-                "sensor_number": "08h"
-            }
-        },
+        "notes": "The sensor name is '3.3 V', and the sensor ID is '08h'. The lower critical voltage is 2.9545V, the lower non-recoverable voltage is 2.7782V, the upper critical voltage is 3.6602V, and the upper non-recoverable voltage is 3.8366V.",
         "source": "ipmi-sensors",
         "device": "3.3 V sensor",
-        "vendors": "Dell PowerEdge C6220",
+        "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
             "http://www.gnu.org/software/freeipmi/",
@@ -89,29 +67,18 @@
     "sensors.3.3vStandby": {
         "display_name": "sensors.3.3vStandby",
         "units": "volt",
-        "max": {
-            "critical": 3.7205,
-            "non-recoverable": 3.8765
-        },
-        "min": {
-            "critical": 2.9795,
-            "non-recoverable": 2.8235
-        },
+        "max": null,
+        "min": null,
         "sig_figs": 3,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
         "variants": null,
         "description": "The voltage supplied by the power supply unit on the 3.3 volt standby rail. The standby rail powers the subset of components needed to remotely start the system.",
-        "notes": {
-            "sensor_info": {
-                "sensor_name": "3.3 V Standby",
-                "sensor_number": "09h"
-            }
-        },
+        "notes": "The sensor name is '3.3 V Standby', and the sensor ID is '09h'. The lower critical voltage is 2.9795V, the lower non-recoverable voltage is 2.8235V, the upper critical voltage is 3.7205V, and the upper non-recoverable voltage is 3.8765V.",
         "source": "ipmi-sensors",
         "device": "3.3 V Standby sensor",
-        "vendors": "Dell PowerEdge C6220",
+        "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
             "http://www.gnu.org/software/freeipmi/",
@@ -122,29 +89,18 @@
     "sensors.5v": {
         "display_name": "sensors.5v",
         "units": "volt",
-        "max": {
-            "critical": 5.5468,
-            "non-recoverable": 5.7925
-        },
-        "min": {
-            "critical": 4.4548,
-            "non-recoverable": 4.2091
-        },
+        "max": null,
+        "min": null,
         "sig_figs": 3,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
         "variants": null,
         "description": "The voltage supplied by the power supply unit on the 5 volt rail.",
-        "notes": {
-            "sensor_info": {
-                "sensor_name": "5 V",
-                "sensor_number": "06h"
-            }
-        },
+        "notes": "The sensor name is '5 V', and the sensor ID is '06h'. The lower critical voltage is 4.4548V, the lower non-recoverable voltage is 4.2091V, the upper critical voltage is 5.5468V, and the upper non-recoverable voltage is 5.7925V.",
         "source": "ipmi-sensors",
         "device": "5 V sensor",
-        "vendors": "Dell PowerEdge C6220",
+        "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
             "http://www.gnu.org/software/freeipmi/",
@@ -155,29 +111,18 @@
     "sensors.5vStandby": {
         "display_name": "sensors.5vStandby",
         "units": "volt",
-        "max": {
-            "critical": 5.5432,
-            "non-recoverable": 5.7898
-        },
-        "min": {
-            "critical": 4.4472,
-            "non-recoverable": 4.2006
-        },
+        "max": null,
+        "min": null,
         "sig_figs": 3,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
         "variants": null,
         "description": "The voltage supplied by the power supply unit on the 5 volt standby rail. The standby rail powers the subset of components needed to remotely start the system.",
-        "notes": {
-            "sensor_info": {
-                "sensor_name": "5 V Standby",
-                "sensor_number": "07h"
-            }
-        },
+        "notes": "The sensor name is '5 V Standby', and the sensor ID is '07h'. The lower critical voltage is 4.4472V, the lower non-recoverable voltage is 4.2006V, the upper critical voltage is 5.5432V, and the upper non-recoverable voltage is 5.7898V.",
         "source": "ipmi-sensors",
         "device": "5 V Standby sensor",
-        "vendors": "Dell PowerEdge C6220",
+        "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
             "http://www.gnu.org/software/freeipmi/",
@@ -188,8 +133,8 @@
     "sensors.inputCurrent": {
         "display_name": "sensors.inputCurrent",
         "units": "amphere",
-        "max": "",
-        "min": "",
+        "max": null,
+        "min": null,
         "sig_figs": null,
         "data_type": "numeric",
         "type": "raw",
@@ -209,8 +154,8 @@
     "sensors.inputVoltage": {
         "display_name": "sensors.inputVoltage",
         "units": "volt",
-        "max": "",
-        "min": "",
+        "max": null,
+        "min": null,
         "sig_figs": null,
         "data_type": "numeric",
         "type": "raw",
