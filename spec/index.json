@@ -1,6 +1,6 @@
 {
     "sensors.12v": {
-        "display_name": "sensors.12v",
+        "display_name": "12V Voltage",
         "units": "volt",
         "max": null,
         "min": null,
@@ -23,7 +23,7 @@
         ]
     },
     "sensors.12vStandby": {
-        "display_name": "sensors.12vStandby",
+        "display_name": "12V Standby Voltage",
         "units": "volt",
         "max": null,
         "min": null,
@@ -47,7 +47,7 @@
         ]
     },
     "sensors.3.3v": {
-        "display_name": "sensors.3.3v",
+        "display_name": "3.3V Voltage",
         "units": "volt",
         "max": null,
         "min": null,
@@ -71,7 +71,7 @@
         ]
     },
     "sensors.3.3vStandby": {
-        "display_name": "sensors.3.3vStandby",
+        "display_name": "3.3V Standby Voltage",
         "units": "volt",
         "max": null,
         "min": null,
@@ -95,7 +95,7 @@
         ]
     },
     "sensors.5v": {
-        "display_name": "sensors.5v",
+        "display_name": "5V Voltage",
         "units": "volt",
         "max": null,
         "min": null,
@@ -119,7 +119,7 @@
         ]
     },
     "sensors.5vStandby": {
-        "display_name": "sensors.5vStandby",
+        "display_name": "5V Standby Voltage",
         "units": "volt",
         "max": null,
         "min": null,
@@ -143,7 +143,7 @@
         ]
     },
     "sensors.inputCurrent": {
-        "display_name": "sensors.inputCurrent",
+        "display_name": "Input Current",
         "units": "amphere",
         "max": null,
         "min": null,
@@ -166,7 +166,7 @@
         ]
     },
     "sensors.inputVoltage": {
-        "display_name": "sensors.inputVoltage",
+        "display_name": "Input Voltage",
         "units": "volt",
         "max": null,
         "min": null,
