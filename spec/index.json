@@ -10,8 +10,12 @@
         "formula": null,
         "description": "The voltage supplied by the power supply unit on the 12V rail.",
         "notes": "",
-        "source": {
-            "^linux\\skernel": ["ipmi-sensors"]
+        "platforms": {
+            "linux": {
+                "ubuntu": {
+                    "*": ["ipmi-sensors"]
+                }
+            }
         },
         "device": "12V sensor",
         "vendors": "*",
@@ -32,8 +36,12 @@
         "formula": null,
         "description": "The voltage supplied by the power supply unit on the 12V standby rail. The standby rail powers the subset of components needed to remotely start the system.",
         "notes": "The sensor name is '12 V Standby', and the sensor ID is '05h'. The lower critical voltage is 10.685V, the lower non-recoverable voltage is 10.045V, the upper critical voltage is 13.885V, and the upper non-recoverable voltage is 14.481V.",
-        "source": {
-            "^linux\\skernel": ["ipmi-sensors"]
+        "platforms": {
+            "linux": {
+                "ubuntu": {
+                    "*": ["ipmi-sensors"]
+                }
+            }
         },
         "device": "12V standby sensor",
         "vendors": ["Dell PowerEdge C6220"],
@@ -55,8 +63,12 @@
         "formula": null,
         "description": "The voltage supplied by the power supply unit on the 3.3V rail.",
         "notes": "The sensor name is '3.3 V', and the sensor ID is '08h'. The lower critical voltage is 2.9545V, the lower non-recoverable voltage is 2.7782V, the upper critical voltage is 3.6602V, and the upper non-recoverable voltage is 3.8366V.",
-        "source": {
-            "^linux\\skernel": ["ipmi-sensors"]
+        "platforms": {
+            "linux": {
+                "ubuntu": {
+                    "*": ["ipmi-sensors"]
+                }
+            }
         },
         "device": "3.3V sensor",
         "vendors": ["Dell PowerEdge C6220"],
@@ -78,8 +90,12 @@
         "formula": null,
         "description": "The voltage supplied by the power supply unit on the 3.3V standby rail. The standby rail powers the subset of components needed to remotely start the system.",
         "notes": "The sensor name is '3.3 V Standby', and the sensor ID is '09h'. The lower critical voltage is 2.9795V, the lower non-recoverable voltage is 2.8235V, the upper critical voltage is 3.7205V, and the upper non-recoverable voltage is 3.8765V.",
-        "source": {
-            "^linux\\skernel": ["ipmi-sensors"]
+        "platforms": {
+            "linux": {
+                "ubuntu": {
+                    "*": ["ipmi-sensors"]
+                }
+            }
         },
         "device": "3.3V standby sensor",
         "vendors": ["Dell PowerEdge C6220"],
@@ -101,8 +117,12 @@
         "formula": null,
         "description": "The voltage supplied by the power supply unit on the 5V rail.",
         "notes": "The sensor name is '5 V', and the sensor ID is '06h'. The lower critical voltage is 4.4548V, the lower non-recoverable voltage is 4.2091V, the upper critical voltage is 5.5468V, and the upper non-recoverable voltage is 5.7925V.",
-        "source": {
-            "^linux\\skernel": ["ipmi-sensors"]
+        "platforms": {
+            "linux": {
+                "ubuntu": {
+                    "*": ["ipmi-sensors"]
+                }
+            }
         },
         "device": "5V sensor",
         "vendors": ["Dell PowerEdge C6220"],
@@ -124,8 +144,12 @@
         "formula": null,
         "description": "The voltage supplied by the power supply unit on the 5V standby rail. The standby rail powers the subset of components needed to remotely start the system.",
         "notes": "The sensor name is '5 V Standby', and the sensor ID is '07h'. The lower critical voltage is 4.4472V, the lower non-recoverable voltage is 4.2006V, the upper critical voltage is 5.5432V, and the upper non-recoverable voltage is 5.7898V.",
-        "source": {
-            "^linux\\skernel": ["ipmi-sensors"]
+        "platforms": {
+            "linux": {
+                "ubuntu": {
+                    "*": ["ipmi-sensors"]
+                }
+            }
         },
         "device": "5V standby sensor",
         "vendors": ["Dell PowerEdge C6220"],
@@ -147,8 +171,12 @@
         "formula": null,
         "description": "The amount of input AC current.",
         "notes": "",
-        "source": {
-            "^linux\\skernel": ["ipmi-sensors"]
+        "platforms": {
+            "linux": {
+                "ubuntu": {
+                    "*": ["ipmi-sensors"]
+                }
+            }
         },
         "device": "input current sensor",
         "vendors": "*",
@@ -169,8 +197,12 @@
         "formula": null,
         "description": "The amount of input AC voltage.",
         "notes": "",
-        "source": {
-            "^linux\\skernel": ["ipmi-sensors"]
+        "platforms": {
+            "linux": {
+                "ubuntu": {
+                    "*": ["ipmi-sensors"]
+                }
+            }
         },
         "device": "input voltage sensor",
         "vendors": "*",
