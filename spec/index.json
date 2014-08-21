@@ -4,7 +4,7 @@
         "units": "V",
         "max": null,
         "min": null,
-        "sig_figs": 4,
+        "sig_figs": null,
         "data_type": "numeric",
         "type": "raw",
         "formula" : null,
