@@ -14,7 +14,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "12 V sensor",
+        "device": "12V sensor",
         "vendors": "*",
         "classification": "sensors",
         "refs": [
@@ -37,7 +37,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "12 V Standby sensor",
+        "device": "12V standby sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -61,7 +61,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "3.3 V sensor",
+        "device": "3.3V sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -85,7 +85,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "3.3 V Standby sensor",
+        "device": "3.3V standby sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -109,7 +109,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "5 V sensor",
+        "device": "5V sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -133,7 +133,7 @@
         "source": {
             "^linux\\skernel": ["ipmi-sensors"]
         },
-        "device": "5 V Standby sensor",
+        "device": "5V standby sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
