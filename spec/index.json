@@ -1,11 +1,11 @@
 {
-    "sensors.12v": {
-        "display_name": "12V Voltage",
+    "sensors.12V": {
+        "displayName": "12V Voltage",
         "units": "V",
         "max": null,
         "min": null,
-        "sig_figs": null,
-        "data_type": "numeric",
+        "sigFigs": null,
+        "dataType": "numeric",
         "type": "raw",
         "formula": null,
         "description": "The voltage supplied by the power supply unit on the 12V rail.",
@@ -25,13 +25,13 @@
             "http://www.gnu.org/software/freeipmi/ipmi-sensors-output-sensor-state.txt"
         ]
     },
-    "sensors.12vStandby": {
-        "display_name": "12V Standby Voltage",
+    "sensors.12VStandby": {
+        "displayName": "12V Standby Voltage",
         "units": "V",
         "max": null,
         "min": null,
-        "sig_figs": 4,
-        "data_type": "numeric",
+        "sigFigs": 4,
+        "dataType": "numeric",
         "type": "raw",
         "formula": null,
         "description": "The voltage supplied by the power supply unit on the 12V standby rail. The standby rail powers the subset of components needed to remotely start the system.",
@@ -52,13 +52,13 @@
             "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
         ]
     },
-    "sensors.3.3v": {
-        "display_name": "3.3V Voltage",
+    "sensors.3.3V": {
+        "displayName": "3.3V Voltage",
         "units": "V",
         "max": null,
         "min": null,
-        "sig_figs": 3,
-        "data_type": "numeric",
+        "sigFigs": 3,
+        "dataType": "numeric",
         "type": "raw",
         "formula": null,
         "description": "The voltage supplied by the power supply unit on the 3.3V rail.",
@@ -79,13 +79,13 @@
             "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
         ]
     },
-    "sensors.3.3vStandby": {
-        "display_name": "3.3V Standby Voltage",
+    "sensors.3.3VStandby": {
+        "displayName": "3.3V Standby Voltage",
         "units": "V",
         "max": null,
         "min": null,
-        "sig_figs": 3,
-        "data_type": "numeric",
+        "sigFigs": 3,
+        "dataType": "numeric",
         "type": "raw",
         "formula": null,
         "description": "The voltage supplied by the power supply unit on the 3.3V standby rail. The standby rail powers the subset of components needed to remotely start the system.",
@@ -106,13 +106,13 @@
             "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
         ]
     },
-    "sensors.5v": {
-        "display_name": "5V Voltage",
+    "sensors.5V": {
+        "displayName": "5V Voltage",
         "units": "V",
         "max": null,
         "min": null,
-        "sig_figs": 3,
-        "data_type": "numeric",
+        "sigFigs": 3,
+        "dataType": "numeric",
         "type": "raw",
         "formula": null,
         "description": "The voltage supplied by the power supply unit on the 5V rail.",
@@ -133,13 +133,13 @@
             "http://www.manualslib.com/manual/423605/Dell-Poweredge-C6220.html"
         ]
     },
-    "sensors.5vStandby": {
-        "display_name": "5V Standby Voltage",
+    "sensors.5VStandby": {
+        "displayName": "5V Standby Voltage",
         "units": "V",
         "max": null,
         "min": null,
-        "sig_figs": 3,
-        "data_type": "numeric",
+        "sigFigs": 3,
+        "dataType": "numeric",
         "type": "raw",
         "formula": null,
         "description": "The voltage supplied by the power supply unit on the 5V standby rail. The standby rail powers the subset of components needed to remotely start the system.",
@@ -161,12 +161,12 @@
         ]
     },
     "sensors.inputCurrent": {
-        "display_name": "Input Current",
+        "displayName": "Input Current",
         "units": "A",
         "max": null,
         "min": null,
-        "sig_figs": null,
-        "data_type": "numeric",
+        "sigFigs": null,
+        "dataType": "numeric",
         "type": "raw",
         "formula": null,
         "description": "The amount of input AC current.",
@@ -187,12 +187,12 @@
         ]
     },
     "sensors.inputVoltage": {
-        "display_name": "Input Voltage",
+        "displayName": "Input Voltage",
         "units": "V",
         "max": null,
         "min": null,
-        "sig_figs": null,
-        "data_type": "numeric",
+        "sigFigs": null,
+        "dataType": "numeric",
         "type": "raw",
         "formula": null,
         "description": "The amount of input AC voltage.",
