@@ -13,7 +13,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "12V sensor",
+        "device": "12V voltage sensor",
         "vendors": "*",
         "classification": "sensors",
         "refs": [
@@ -35,7 +35,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "12V standby sensor",
+        "device": "12V standby voltage sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -58,7 +58,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "3.3V sensor",
+        "device": "3.3V voltage sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -81,7 +81,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "3.3V standby sensor",
+        "device": "3.3V standby voltage sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -104,7 +104,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "5V sensor",
+        "device": "5V voltage sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -127,7 +127,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "5V standby sensor",
+        "device": "5V standby voltage sensor",
         "vendors": ["Dell PowerEdge C6220"],
         "classification": "sensors",
         "refs": [
@@ -150,7 +150,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "input current sensor",
+        "device": "input AC current sensor",
         "vendors": "*",
         "classification": "sensors",
         "refs": [
@@ -172,7 +172,7 @@
         "platforms": {
             "linux": ["ipmi-sensors"]
         },
-        "device": "input voltage sensor",
+        "device": "input AC voltage sensor",
         "vendors": "*",
         "classification": "sensors",
         "refs": [
